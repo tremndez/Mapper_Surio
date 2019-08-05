@@ -12,13 +12,9 @@ ScriptsOnlyBuild:
     UnityEditor.Graphs.dll:
     - UnityEditor.Graphs.AnimationBlendTree.Graph
     - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.AnyStateNode
     - UnityEditor.Graphs.AnimationStateMachine.Graph
     - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.StateNode
     - UnityEditor.Graphs.AnimatorControllerTool
-    UnityEditor.TestRunner.dll:
-    - UnityEditor.TestTools.TestRunner.TestListCacheData
     UnityEngine.UI.dll:
     - UnityEngine.EventSystems.EventSystem
     - UnityEngine.EventSystems.StandaloneInputModule
@@ -45,17 +41,17 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9330}
+      Script: {instanceID: 9352}
     - Class: 114
-      Script: {instanceID: 9342}
+      Script: {instanceID: 9364}
     - Class: 114
-      Script: {instanceID: 9350}
+      Script: {instanceID: 9372}
     - Class: 114
-      Script: {instanceID: 9388}
+      Script: {instanceID: 9410}
     - Class: 114
-      Script: {instanceID: 74114}
+      Script: {instanceID: 9674}
     - Class: 114
-      Script: {instanceID: 80504}
+      Script: {instanceID: 10044}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -90,29 +86,29 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9330}
+      Script: {instanceID: 9352}
     - Class: 114
-      Script: {instanceID: 9336}
+      Script: {instanceID: 9358}
     - Class: 114
-      Script: {instanceID: 9342}
+      Script: {instanceID: 9364}
     - Class: 114
-      Script: {instanceID: 9350}
+      Script: {instanceID: 9372}
     - Class: 114
-      Script: {instanceID: 9386}
+      Script: {instanceID: 9408}
     - Class: 114
-      Script: {instanceID: 9388}
+      Script: {instanceID: 9410}
     - Class: 114
-      Script: {instanceID: 9600}
+      Script: {instanceID: 9624}
     - Class: 114
-      Script: {instanceID: 9786}
+      Script: {instanceID: 9814}
     - Class: 114
-      Script: {instanceID: 9792}
+      Script: {instanceID: 9820}
     - Class: 114
-      Script: {instanceID: 10020}
+      Script: {instanceID: 10044}
     - Class: 114
-      Script: {instanceID: 74114}
+      Script: {instanceID: 10050}
     - Class: 114
-      Script: {instanceID: 76864}
+      Script: {instanceID: 11644}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -151,15 +147,15 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9330}
+      Script: {instanceID: 9352}
     - Class: 114
-      Script: {instanceID: 9342}
+      Script: {instanceID: 9364}
     - Class: 114
-      Script: {instanceID: 9350}
+      Script: {instanceID: 9372}
     - Class: 114
-      Script: {instanceID: 9388}
+      Script: {instanceID: 9410}
     - Class: 114
-      Script: {instanceID: 44706}
+      Script: {instanceID: 9598}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -647,6 +643,12 @@ ScriptsOnlyBuild:
     className: TMP_SubMeshUI
   - hash:
       serializedVersion: 2
+      Hash: 39c16e2cd3203f1c1bc421f0c156459c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: DialogueManager
+  - hash:
+      serializedVersion: 2
       Hash: 7e6ed836cbaa230e56d6a2bbae1b9bb5
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
@@ -663,6 +665,18 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Postprocessing.Runtime.dll
     namespaceName: UnityEngine.Rendering.PostProcessing
     className: ChromaticAberration
+  - hash:
+      serializedVersion: 2
+      Hash: 09f7304d3caac5488a0ef0cc82668c70
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: OptionScripts
+  - hash:
+      serializedVersion: 2
+      Hash: 48be1a74ca3849fac732edfcd9a17c97
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SceneSwap_2
   - hash:
       serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
@@ -755,6 +769,12 @@ ScriptsOnlyBuild:
     className: TextMeshProUGUI
   - hash:
       serializedVersion: 2
+      Hash: 48be1a74ca3849fac732edfcd9a17c97
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SceneSwap
+  - hash:
+      serializedVersion: 2
       Hash: d791aa6007fa3640be1164ea75bb087d
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -795,30 +815,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
     className: TMP_SubMesh
-  - hash:
-      serializedVersion: 2
-      Hash: 09f7304d3caac5488a0ef0cc82668c70
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: OptionScripts
-  - hash:
-      serializedVersion: 2
-      Hash: 39c16e2cd3203f1c1bc421f0c156459c
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: DialogueManager
-  - hash:
-      serializedVersion: 2
-      Hash: 48be1a74ca3849fac732edfcd9a17c97
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SceneSwap
-  - hash:
-      serializedVersion: 2
-      Hash: 48be1a74ca3849fac732edfcd9a17c97
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SceneSwap_2
   platform: 19
   scenePathNames:
   - Assets/Scenes/Scene1.unity
